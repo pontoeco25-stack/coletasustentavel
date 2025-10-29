@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html class="light" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>EcoletaSeletiva - A Importância da Coleta Seletiva</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2E7D32",
+                        "background-light": "#F5F5F5",
+                        "background-dark": "#112116",
+                        "text-light": "#333333",
+                        "text-dark": "#E0E0E0",
+                        "highlight-blue": "#1976D2",
+                        "highlight-red": "#D32F2F",
+                        "highlight-yellow": "#FBC02D",
+                        "highlight-green": "#689F38",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="flex items-center p-4 justify-between max-w-6xl mx-auto">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">recycling</span>
+<h2 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight tracking-[-0.015em] flex-1">EcoletaSeletiva</h2>
+</div>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-bold hover:text-primary transition-colors" href="#porque">Porquê</a>
+<a class="text-sm font-bold hover:text-primary transition-colors" href="#como">Como Fazer</a>
+<a class="text-sm font-bold hover:text-primary transition-colors" href="#impacto">Impacto</a>
+<a class="text-sm font-bold hover:text-primary transition-colors" href="#contato">Contato</a>
+</nav>
+<button class="md:hidden text-text-light dark:text-text-dark text-base font-bold leading-normal tracking-[0.015em] shrink-0">Menu</button>
+</div>
+</header>
+<main>
+<!-- HeroSection -->
+<section class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4 text-center" data-alt="Stylized illustration of colorful recycling bins against a green nature backdrop." style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDIoYs-o-jCmjPo8z1BS_OAWcLzJMInJ7lTV9NRMT9nJ25iZxLc8hrooT3z1hgesRZHjqf7ssMYRkjOCNn8Ho9xOsEYVAxgJfIaZli10pH1oeAOEpsS285WMtltnfQZSynk4rE8-o9vXWDsKnmIN8HjgddAEenWeQok95thVO8TQ_QJjkP_wygU0BjCSvcK5iEpzLLWgA_PDCnPWFnnbLbibVeOrEdzpkxEwV4yqItqLxLk6MYuTNMRHHE2lX52ZWf_XQCnR43ZOF8");'>
+<div class="flex flex-col gap-2">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-2xl">
+                                Transforme o Mundo, Comece Pelo Seu Lixo
+                            </h1>
+<h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal max-w-xl">
+                                Descubra como a coleta seletiva com lixeiras sustentáveis pode fazer uma enorme diferença para o nosso planeta.
+                            </h2>
+</div>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-opacity-90 transition-all" href="#porque">
+<span class="truncate">Saiba Mais</span>
+</a>
+</div>
+</div>
+</section>
+<!-- SectionHeader: O "Porquê" -->
+<section class="py-10 px-4 max-w-6xl mx-auto" id="porque">
+<h2 class="text-text-light dark:text-text-dark text-3xl font-bold leading-tight tracking-[-0.015em] text-center mb-8">Por que separar o lixo faz toda a diferença?</h2>
+<p class="text-center max-w-3xl mx-auto mb-12">Cada item que você separa contribui para um futuro mais verde e sustentável. Veja como sua ação impacta positivamente o meio ambiente e a sociedade.</p>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6 p-0">
+<div class="flex flex-1 flex-col gap-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-background-dark p-6 text-center items-center">
+<span class="material-symbols-outlined text-primary text-4xl">eco</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight">Reduz a Poluição</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">Menos lixo em rios, solos e no ar que respiramos.</p>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-background-dark p-6 text-center items-center">
+<span class="material-symbols-outlined text-primary text-4xl">forest</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight">Economiza Recursos</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">A reciclagem utiliza menos água, energia e matéria-prima.</p>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-background-dark p-6 text-center items-center">
+<span class="material-symbols-outlined text-primary text-4xl">groups</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight">Gera Empregos</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">A indústria da reciclagem cria milhares de oportunidades de trabalho.</p>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-background-dark p-6 text-center items-center">
+<span class="material-symbols-outlined text-primary text-4xl">delete_sweep</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight">Diminui Aterros</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm font-normal leading-normal">Aumenta a vida útil dos aterros, evitando contaminação.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SectionHeader: "Como" Fazer -->
+<section class="py-16 bg-white dark:bg-background-dark" id="como">
+<div class="px-4 max-w-6xl mx-auto">
+<h2 class="text-text-light dark:text-text-dark text-3xl font-bold leading-tight tracking-[-0.015em] text-center mb-12">Separar é simples: um guia prático</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Card Papel -->
+<div class="flex flex-col items-center p-6 rounded-lg bg-background-light dark:bg-gray-800 border-t-4 border-highlight-blue">
+<div class="w-16 h-16 rounded-full bg-highlight-blue flex items-center justify-center mb-4"><span class="material-symbols-outlined text-white text-4xl">description</span></div>
+<h3 class="text-xl font-bold text-highlight-blue mb-2">Papel</h3>
+<p class="text-center text-gray-600 dark:text-gray-400 text-sm">Jornais, revistas, caixas de papelão e embalagens. Mantenha-os secos e limpos.</p>
+</div>
+<!-- Card Plástico -->
+<div class="flex flex-col items-center p-6 rounded-lg bg-background-light dark:bg-gray-800 border-t-4 border-highlight-red">
+<div class="w-16 h-16 rounded-full bg-highlight-red flex items-center justify-center mb-4"><span class="material-symbols-outlined text-white text-4xl">water_bottle</span></div>
+<h3 class="text-xl font-bold text-highlight-red mb-2">Plástico</h3>
+<p class="text-center text-gray-600 dark:text-gray-400 text-sm">Garrafas PET, embalagens de produtos de limpeza e potes. Lave-os antes de descartar.</p>
+</div>
+<!-- Card Metal -->
+<div class="flex flex-col items-center p-6 rounded-lg bg-background-light dark:bg-gray-800 border-t-4 border-highlight-yellow">
+<div class="w-16 h-16 rounded-full bg-highlight-yellow flex items-center justify-center mb-4"><span class="material-symbols-outlined text-white text-4xl">fastfood</span></div>
+<h3 class="text-xl font-bold text-highlight-yellow mb-2">Metal</h3>
+<p class="text-center text-gray-600 dark:text-gray-400 text-sm">Latas de alumínio e aço. Amasse-as para ocupar menos espaço.</p>
+</div>
+<!-- Card Vidro -->
+<div class="flex flex-col items-center p-6 rounded-lg bg-background-light dark:bg-gray-800 border-t-4 border-highlight-green">
+<div class="w-16 h-16 rounded-full bg-highlight-green flex items-center justify-center mb-4"><span class="material-symbols-outlined text-white text-4xl">wine_bar</span></div>
+<h3 class="text-xl font-bold text-highlight-green mb-2">Vidro</h3>
+<p class="text-center text-gray-600 dark:text-gray-400 text-sm">Garrafas, potes e frascos. Tenha cuidado ao manusear para evitar acidentes.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: O "Impacto" Positivo -->
+<section class="py-16" id="impacto">
+<div class="px-4 max-w-6xl mx-auto text-center">
+<h2 class="text-text-light dark:text-text-dark text-3xl font-bold leading-tight tracking-[-0.015em] mb-4">Seu gesto, nosso futuro.</h2>
+<p class="max-w-3xl mx-auto mb-12">Pequenas ações diárias de reciclagem geram resultados gigantescos para o planeta. Veja o poder da sua contribuição em números.</p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+<div class="flex flex-col items-center p-6 rounded-lg bg-white dark:bg-background-dark">
+<span class="material-symbols-outlined text-primary text-5xl mb-3">park</span>
+<p class="text-4xl font-black text-primary">1 Tonelada</p>
+<p class="text-lg font-bold mt-1">de papel reciclado</p>
+<p class="text-gray-600 dark:text-gray-400 mt-2">Salva cerca de 22 árvores.</p>
+</div>
+<div class="flex flex-col items-center p-6 rounded-lg bg-white dark:bg-background-dark">
+<span class="material-symbols-outlined text-primary text-5xl mb-3">bolt</span>
+<p class="text-4xl font-black text-primary">90%</p>
+<p class="text-lg font-bold mt-1">de economia</p>
+<p class="text-gray-600 dark:text-gray-400 mt-2">Na energia para produzir alumínio novo.</p>
+</div>
+<div class="flex flex-col items-center p-6 rounded-lg bg-white dark:bg-background-dark">
+<span class="material-symbols-outlined text-primary text-5xl mb-3">co2</span>
+<p class="text-4xl font-black text-primary">-74%</p>
+<p class="text-lg font-bold mt-1">em emissões de CO₂</p>
+<p class="text-gray-600 dark:text-gray-400 mt-2">Ao reciclar plástico em vez de produzir do zero.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Final Section -->
+<section class="bg-primary/10 dark:bg-primary/20 py-20">
+<div class="max-w-4xl mx-auto px-4 text-center">
+<h2 class="text-3xl font-bold text-text-light dark:text-white mb-4">Comece agora!</h2>
+<p class="text-lg text-gray-700 dark:text-gray-300 mb-8">Faça parte da mudança que o mundo precisa. Adote a coleta seletiva na sua casa, condomínio e trabalho.</p>
+<button class="min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-all">
+                        Encontre Pontos de Coleta
+                    </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-gray-800 dark:bg-background-dark text-white" id="contato">
+<div class="max-w-6xl mx-auto py-8 px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-6">
+<div>
+<h3 class="text-lg font-bold">EcoletaSeletiva</h3>
+<p class="text-sm text-gray-400">Promovendo um futuro mais sustentável.</p>
+</div>
+<div class="flex gap-4">
+<a class="text-gray-400 hover:text-white transition-colors" data-alt="Link para o Facebook" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewbox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-gray-400 hover:text-white transition-colors" data-alt="Link para o Instagram" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewbox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427-.465C9.53 2.013 9.884 2 12.315 2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6zm6.406-11.845a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-gray-400 hover:text-white transition-colors" data-alt="Link para o Twitter" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewbox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
+</a>
+</div>
+<div class="text-sm text-gray-400">
+                    © 2024 EcoletaSeletiva. Todos os direitos reservados.
+                </div>
+</div>
+</footer>
+</div>
+</body></html>
